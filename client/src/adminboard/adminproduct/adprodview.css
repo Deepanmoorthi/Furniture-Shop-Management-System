@@ -1,0 +1,22 @@
+.productcard{
+    background-color: whitesmoke;
+    color: darkred;
+    /* justify-content:space-evenly; */
+    width: 40%;
+    margin-left: 28%;
+    border-radius: 1rem;
+    border: 2px solid teal;
+}
+
+.adview{
+    margin-left: 24%;
+    /* margin-top: 12px; */
+    float: left;
+    width: 25%;
+}
+.spanview{
+    
+    color: black;
+   
+    
+}

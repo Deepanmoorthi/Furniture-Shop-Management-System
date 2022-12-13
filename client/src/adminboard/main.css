@@ -1,0 +1,105 @@
+.admin{
+    background-color: rgb(255, 254, 254);
+
+}
+.trainers_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 60%;
+    height: auto;
+    
+  }
+  .tit{
+    margin-top: 4%;
+    margin-left: 45%;
+    color:rgb(255, 102, 0);
+  }
+  .card1{
+    background-color: rgb(44, 3, 48);
+    padding: 2rem;
+    font-weight: bold;
+    box-shadow: 0 8px 5px -2px rgb(32, 32, 32);
+    transition: 0.3s;
+  }
+  .card2{
+    background-color: rgb(92, 22, 43);
+    padding: 2rem;
+    font-weight: bold;
+    box-shadow: 0 8px 5px -2px rgb(32, 32, 32);
+    transition: 0.3s;
+  }
+  .card3{
+    background-color: rgb(1, 22, 6);
+    padding: 2rem;
+    font-weight: bold;
+    box-shadow: 0 8px 9px -2px rgb(32, 32, 32);
+    transition: 0.3s;
+  }
+  .card4{
+    background-color: rgb(139, 18, 18);
+    padding: 2rem;
+    font-weight: bold;
+    box-shadow: 0 8px 9px -2px rgb(32, 32, 32);
+    transition: 0.3s;
+  }
+  .card5{
+    background-color: rgb(6, 80, 109);
+    padding: 2rem;
+    font-weight: bold;
+    box-shadow: 0 8px 9px -2px rgb(32, 32, 32);
+    transition: 0.3s;
+  }
+  .card6{
+    background-color: black;
+    padding: 2rem;
+    font-weight: bold;
+    box-shadow: 0 8px 9px -2px rgb(32, 32, 32);
+    transition: 0.3s;
+  }
+
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 darkorange;
+  }
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 darkorange;
+  }
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 darkorange;
+  }
+  .card4:hover {
+    box-shadow: 0 8px 16px 0 darkorange;
+  }
+  .card5:hover {
+    box-shadow: 0 8px 16px 0 darkorange;
+  }
+  .card6:hover {
+    box-shadow: 0 8px 16px 0 darkorange;
+  }
+
+
+ 
+  
+  /* @media screen and (max-width: 1024px){
+    .trainers_container {
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+    }
+  } */
+
+  /* @media screen and (max-width: 600px){
+    .trainers_container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .card.trainer{
+      width: 90%;
+      margin-inline: auto;
+    }
+  } */
+  
+  
+  

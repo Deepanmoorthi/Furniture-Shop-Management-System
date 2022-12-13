@@ -1,0 +1,97 @@
+  .trainers_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 6rem;
+    margin-top: 5%;
+  }
+ 
+  .card.trainer {
+    background-color: rgb(19, 63, 105);
+    padding: 1rem;
+
+  }
+  .serviceh2{
+    color: black;
+  }
+/* .Form{
+    background-color: whitesmoke;
+    box-shadow: 0 8px 9px -2px rgb(32, 32, 32)
+  } */
+  .trainers{
+    margin-top: 5%;
+  }
+
+  .trainer_img {
+    border-radius: 0 2rem;
+    overflow: hidden;
+  }
+
+  .trainer h3{
+    margin-top: 2rem;
+  }
+
+  .trainer p{
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: sandybrown;
+  }
+
+  .trainer:hover a{
+    background: var(--color-gary-500);
+  }
+
+  
+  @media screen and (max-width: 1024px){
+    .trainers_container {
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .trainers_container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .card.trainer{
+      width: 90%;
+      margin-inline: auto;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* .programs{
+    margin-top: 8rem;
+    
+  }
+
+  .programs_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+    
+  }
+
+  .programs_program a{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+  }
+
+.programs_program:hover a{
+    background: var(--color-secondary);
+    color: var(--color-gary-600);
+    
+} */
+
+
+

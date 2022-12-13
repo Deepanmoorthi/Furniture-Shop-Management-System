@@ -1,0 +1,21 @@
+.order{
+    margin-top: 8%;
+    text-align: center;
+}
+.order h1{
+    color: var(--color-secondary);
+}
+.orh2{
+    color: #000;
+}
+
+.ipt{
+    border-radius: 0.2rem;
+    border: 2px solid var(--color-primary);
+    padding: 10px;
+    width: 16rem;
+}
+
+.subbut{
+    margin-left: 25%;
+}

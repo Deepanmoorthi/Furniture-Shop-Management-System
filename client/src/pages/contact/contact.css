@@ -1,0 +1,65 @@
+.contact_container{
+    display: grid;
+    place-items: center;
+    
+}
+
+.contact_wrapper{
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+    margin-top: 8%;
+}
+.conth2{
+    color: #000;
+}
+
+.contact_wrapper a{
+    background: var(--color-primary);
+    font-size: 2rem;
+    border: 2px solid transparent;
+    transition: var(--transition);
+    padding: 2rem;
+    border-radius: 1.5rem;
+
+}
+.contact{
+    margin-top: 0%;
+}
+
+.contact_wrapper a:hover{
+    background: transparent;
+    border-color: var(--color-gray-100);
+
+}
+.feedback{
+    text-align: center;
+    
+}
+.feedback h1{
+    color: var(--color-secondary);
+}
+
+.ipt{
+    border-radius: 0.2rem;
+    border: 2px solid var(--color-primary);
+    padding: 10px;
+    width: 16rem;
+}
+
+.subbut{
+    margin-left: 25%;
+}
+
+
+@media screen and (max-width:600px){
+    .contact_wrapper{
+        gap: 1.5rem;
+    }
+    .contact_wrapper a{
+        padding: 1rem;
+        font-size: 1.2rem;
+        border-radius: 1rem;
+    }
+    
+}

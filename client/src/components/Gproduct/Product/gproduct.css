@@ -1,0 +1,53 @@
+
+  .sectiong {
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    
+  }
+  .cards {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color:white;
+    width: 280px;
+   
+    padding: 30px;
+    margin-bottom: 8%;
+    
+  }
+  .cards:hover {
+    box-shadow: 0 10px 10px 10px rbga(0, 0, 0, rgb(17, 16, 16));
+    /* cursor: pointer; */
+  }
+  /* .image_box img {
+    width: 250px;
+    height: 200px;
+  } */
+  
+  .image_box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0rem;
+  }
+  .details p:nth-child(1) {
+    font-weight: bold;
+  }
+  .details p:nth-child(2) {
+    color: black;
+    font-size: 0.8rem;
+  }
+  .details p:nth-child(3) {
+    font-weight: bolx;
+    color: black;
+  }
+  .details button {
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(231, 177, 97);
+    outline: none;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,113 @@
+  .garticle {
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 10%;
+    
+  }
+  
+  .cart_box img {
+    width: 200px;
+    height: 150px;
+  }
+  .cart_img {
+    display: flex;
+    width: 400px;
+  }
+  
+  .cart_img p {
+    font-weight: bold;
+    margin-left: 10px;
+    color: black;
+  }
+  
+  .cart_box {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid black ;
+    padding-bottom: 5px;
+  }
+  
+  .cart_box div:nth-child(2) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .cart_box div:nth-child(3) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    color: var(--color-secondary);
+    background-color:black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .cart_box div:nth-child(3) button:hover {
+    background-color: var(--color-gray-600);
+  }
+  .cart_box div:nth-child(3) span {
+    background-color:black;
+    color: var(--color-gray-100);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .total {
+
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .total span:nth-child(1) {
+    
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .total span:nth-child(2) {
+    font-size: 1.8rem;
+    color:black;
+    font-weight: bold;
+  }
+  .btton{
+    color: var(--color-gray-100);
+    width: fit-content;
+    margin-left: 85%;
+    padding: 0.9rem;
+    background:rgb(247, 90, 90);
+    border-radius: 0.5em;
+    transition: var(--transition);
+    
+  } 
+  
+  .btton:hover{
+    background: var(--color-secondary);
+    color: var(--color-gray-600);
+  }
+  
+  .btton lg{
+    padding: 1.2rem 3rem ;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+  }
+  
+  .btton.sm{
+    padding: 0.4rem 1.2rem ;
+    font-size: 0.9rem;
+  }
+  
+  .btton.sm:hover{
+    background: var(--color-gray-100);
+  }
+  
+

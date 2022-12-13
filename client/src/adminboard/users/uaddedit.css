@@ -1,0 +1,25 @@
+.adminuserform{
+    text-align: center;
+    margin-top: 3%;
+ }
+ .adminuserform h3{
+   
+    color: var(--color-secondary);
+ }
+ .buttn{
+     
+     border-radius: 5px;
+     font-size: 16px;
+     margin: 4px;
+     cursor: pointer;
+     background-color: var(--color-primary);
+     padding: 10px;
+     color: white;
+     font-weight: bold;
+ }
+ .buttn:hover{
+     color: var(--color-gray-500);
+     background: var(--color-secondary);
+ }
+ 
+ 

@@ -1,0 +1,47 @@
+.Block{
+    background-color: black;
+    color: antiquewhite;
+    animation: 10s infinite alternate;
+  }
+  
+  @keyframes blink {
+    0% {
+      color: blue;
+    }
+    10% {
+        color: #8e44ad;
+      }
+      20% {
+        color: #1abc9c;
+      }
+      
+      30% {
+        color: #d35400;
+      }
+      
+      40% {
+        color: rgb(255, 25, 0);
+      }
+    50% {
+        color: #34495e;
+    }
+    60% {
+        color: rgb(0, 255, 157);
+      }
+      
+      70% {
+        color: #2980b9;
+      }
+      80% {
+        color: #f1c40f;
+      }
+      
+      90% {
+        color: #2980b9;
+      }
+      
+    100% {
+        color: pink;
+    }
+  }
+  
